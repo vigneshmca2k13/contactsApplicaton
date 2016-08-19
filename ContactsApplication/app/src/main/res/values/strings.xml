@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">FirstProject</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_contacts</item>
+    </string-array>
+    <string name="nav_item_contacts">Contacts</string>
+
+    <string name="to_top">To Top</string>
+    <string name="to_bottom">To Bottom</string>
+    <string name="item_string">Item %1$d</string>
+    <string name="fastscroller_track">FastScroller track</string>
+    <string name="fastscroller_handle">FastScroller handle</string>
+
+
+    <string-array name="type">
+
+        <item>Select</item>
+        <item>Phone</item>
+        //
+        <item>Mail</item>
+        //
+        <item>Note</item>
+        <item>Address</item>
+        //
+        <item>NickName</item>
+        <item>Events</item>
+        //
+        <item>Website</item>//
+    </string-array>
+
+
+    <string-array name="Mail">
+        <item>Select</item>
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Other</item>
+        <item>Work</item>
+    </string-array>
+    <string-array name="Mailwithoutselect">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Other</item>
+        <item>Work</item>
+    </string-array>
+    <string-array name="Address">
+        <item>Select</item>
+        <item>Home</item>
+        <item>Other</item>
+        <item>Work</item>
+    </string-array>
+
+    <string-array name="Note">
+        <item>Select</item>
+        <item>notes</item>
+    </string-array>
+    <string-array name="NickName">
+        <item>Select</item>
+        <item>Nick Name</item>
+    </string-array>
+    <string-array name="Events">
+        <item>Select</item>
+        <item>Anniversary</item>
+        <item>Birthday</item>
+        <item>Other</item>
+
+    </string-array>
+
+
+    <string-array name="Website">
+
+        <item>Select</item>
+        <item>Blog</item>
+        <item>FTP</item>
+        <item>Home</item>
+        <item>Homepage</item>
+        <item>Other</item>
+        <item>Profile</item>
+        <item>Work</item>
+
+
+    </string-array>
+
+
+    <string-array name="Phone">
+        <item>Select</item>
+        <item>Assistant</item>
+        <item>Callback</item>
+        <item>Car</item>
+        <item>Company Main</item>
+        <item>FaxHome</item>
+        <item>ISDN</item>
+        <item>Main</item>
+        <item>Mobile</item>
+        <item>Other</item>
+        <item>Other Fax</item>
+        <item>Pager</item>
+        <item>Radio</item>
+        <item>TELEX</item>
+        <item>TTY_TTD</item>
+        <item>Work</item>
+        <item>Work Mobile</item>
+        <item>Work Pager</item>
+    </string-array>
+
+
+    <string-array name="Phone_withoutselect">
+        <item>Assistant</item>
+        <item>Callback</item>
+        <item>Car</item>
+        <item>Company Main</item>
+        <item>FaxHome</item>
+        <item>ISDN</item>
+        <item>Main</item>
+        <item>Mobile</item>
+        <item>Other</item>
+        <item>Other Fax</item>
+        <item>Pager</item>
+        <item>Radio</item>
+        <item>TELEX</item>
+        <item>TTY_TTD</item>
+        <item>Work</item>
+        <item>Work Mobile</item>
+        <item>Work Pager</item>
+    </string-array>
+</resources>

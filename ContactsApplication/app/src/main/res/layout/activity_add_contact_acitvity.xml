@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="first.project.com.firstproject.AddContactAcitvity">
+
+    <include layout="@layout/toolbar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+    `<TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="18sp"
+      android:layout_marginLeft="10dp"
+      android:text="Name"
+      android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"
+        />
+     <View
+         android:layout_width="wrap_content"
+         android:layout_height="2dp"
+         android:background="@color/colorAccent"
+         android:layout_gravity="center"
+         android:layout_marginLeft="10dp"></View>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name prefix"
+        android:id="@+id/prefix"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First name"
+        android:id="@+id/firstname"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Middle name"
+        android:id="@+id/middlename"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last name"
+        android:id="@+id/lastname"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name suffix"
+        android:id="@+id/suffix"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:id="@+id/phonelayout">
+
+                `<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:text="Phone"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+            android:layout_margin="10dp"
+                />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:background="@color/colorAccent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"></View>
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:weightSum="2"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/phone"
+                    />
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/phonetype"
+                    android:layout_gravity="center"
+                    android:entries="@array/Phone_withoutselect"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/emaillayout">
+
+
+                `<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:text="Email"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                 android:layout_margin="10dp"
+                />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:background="@color/colorAccent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"></View>
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:weightSum="2"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/email"
+                    />
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/emailtype"
+                    android:layout_gravity="center"
+                    android:entries="@array/Mailwithoutselect"/>
+            </LinearLayout>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

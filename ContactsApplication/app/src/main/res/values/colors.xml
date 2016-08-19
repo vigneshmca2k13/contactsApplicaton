@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="lightprimarycolor">#B2DFDB</color>
+    <color name="primarytext">#212121</color>
+    <color name="secondarytext">#757575</color>
+    <color name="dividercolor">#BDBDBD</color>
+    <color name="colorAccent">#009688</color>
+    <color name="white">#ffffff</color>
+    <color name="textcolor">#9DA0A1</color>
+    <color name="textcolortitle">#323232</color>
+    <color name="background">#EBEBEB</color>
+    <color name ="contactbackground">#FAFAFA</color>
+    <color name="contact_item_defaultpic_background">#ABD5DB</color>
+</resources>

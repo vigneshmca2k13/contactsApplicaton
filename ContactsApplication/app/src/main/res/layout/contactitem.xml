@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background"
+    android:id="@+id/contactitem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:weightSum="5">
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/defaultpic"
+                android:background="@drawable/float_background"
+                android:textSize="25dp"
+                 android:layout_gravity="center"
+                 android:textColor="@color/white"
+
+                android:gravity="center"/>
+             <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/contactimg"
+                android:src="@drawable/defalut_contact"
+                android:visibility="gone"
+                android:layout_margin="10dp"
+                />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/mark"
+                    android:src="@drawable/checkedstate"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:visibility="invisible"
+                    android:gravity="center"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/contactname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Android version name"
+                android:layout_gravity="center"
+                android:textColor="@color/primarytext"
+                android:textSize="18sp"
+                android:layout_weight="3"/>
+
+
+    </LinearLayout>
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="50dp"
+       android:layout_marginRight="15dp"
+       android:background="@color/dividercolor"
+       />
+</LinearLayout>
